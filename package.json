@@ -1,0 +1,52 @@
+{
+  "name": "@wolflabs/server",
+  "version": "1.0.0",
+  "description": "The Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WolfLabs/server.git"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "Michal Kluszewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WolfLabs/server/issues"
+  },
+  "homepage": "https://github.com/WolfLabs/server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "colors": "^1.1.2",
+    "commander": "^2.11.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "deep-freeze": "0.0.1",
+    "express": "^4.16.1",
+    "fbemitter": "^2.1.1",
+    "handlebars": "^4.0.10",
+    "lodash": "^4.17.4",
+    "mysql2": "^1.4.2",
+    "nunjucks": "^3.0.1",
+    "request": "^2.83.0",
+    "sequelize": "^4.13.5",
+    "serve-favicon": "^2.4.5",
+    "socket.io": "^2.0.3",
+    "sprintf-js": "^1.1.1",
+    "sticky-cluster": "^0.3.2",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^21.2.0",
+    "eslint-plugin-react": "^7.4.0"
+  }
+}
